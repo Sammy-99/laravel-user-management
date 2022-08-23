@@ -1,0 +1,268 @@
+
+/* Styling for registration form*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif !important;
+    /* font-family: 'Oswald', sans-serif !important; */
+}
+
+
+.reg-label{
+    font-size: 25px;
+    padding-top: 30px !important;
+}
+
+.reg-form{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+
+/* .reg-form input{
+    border: 2px solid black;
+} */
+
+.btn-login{
+    margin-top: 10px;
+}
+
+.logo-image{
+    margin-top: 200px !important;
+    /* padding-right: 80px; */
+
+}
+
+.login_form{
+    margin-top: 200px !important;
+}
+
+/* styling for error an some small changes */
+.field-error{
+    color: red;
+}
+
+.mail-suffix{
+    /* margin-top: 24px; */
+    margin-left: -24px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .dob-input{
+        margin-left: -24px;
+    }
+    .signin-msg{
+        margin-left: -24px;
+    }
+
+    .logo-image-suffix{
+        display: none;
+    }
+
+    .searchData{
+        margin-left: 36px ;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .signin-msg{
+        padding-top: 10px;
+    }
+    
+    .profile-picture{
+        height: 100px !important;
+        width: 100px !important;
+        border-radius: 50% !important;
+        margin-top: 20px !important;
+        margin-left: 34px;
+    }
+
+    .upload-picture{
+        padding-top: 14px !important;
+        padding-left: 34px !important;
+        padding-bottom: 10px;
+    }
+
+    #datatable{
+        display: block !important;
+        overflow-x: auto !important;
+    }
+
+    .mail-suffix{
+        display: none;
+    }
+
+    .logo-image{
+        margin-top: 10px !important;
+        width: 100px !important;
+    }
+
+    .login_form{
+        margin-top: 10px !important;
+    }
+
+    .logo-image-suffix{
+        margin-top: 32px;
+        font-size: 2rem;
+        margin-left: -9px;
+    }
+
+    .update-profile-btn {
+        margin-left: 2rem !important;
+    }
+
+    .key_photo{
+        /* width: 200px !important; */
+        height: 0px !important;
+        width: 120px !important;
+        transform: scale(0.2);
+        margin-top: 10px !important;
+ 
+    }
+
+}
+
+@media only screen and (max-width: 568px){
+    .user-name{
+        display: none;
+    }
+}
+
+/* styling for profile picture */
+
+.profile-picture{
+    border: 1px solid white;
+    height: 150px;
+    border-radius: 50%;
+    background-color: darkgray;
+}
+
+.mycontent-left {
+    border-right: 1px dashed #333;
+  }
+
+.fix-button-row-height{
+    min-height: 39px;
+}
+
+#datatable tr{
+    cursor: pointer;
+}
+
+#datatable tr:hover{
+    background: #f8f9fa;
+}
+
+.rightSideAlert{
+    position: absolute !important;
+    right: 0px;
+    z-index: 1;
+    top: 56px;
+}
+
+.email_content{
+    white-space: pre-wrap;
+}
+
+#mainCheckbox{
+    margin-top: 9px;
+}
+
+.password_reset_form{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 7rem;
+}
+
+.password_reset_form input{
+    border: 2px solid black;
+}
+
+.key_photo{
+    margin-left: 10rem;
+    margin-top: 9rem;
+}
+
+.login_form{
+    border: 2px solid black !important;
+    border-radius: 10px ;
+}
+
+#login-form input{
+    border: 2px solid black;
+}
+
+/* .profile_input label,.profile_input span{
+    font-size: 25px;
+     font-weight: bold; 
+} */
+
+.profile_input{
+    border: 2px solid black;
+    border-radius: 10px ;
+}
+
+
+.profile_input img{
+    margin-top: 4rem;
+}
+
+.user_edit_form .user_details_input input{
+    border: 2px solid black !important;
+    background: transparent;
+} 
+
+.user_details_input{
+    padding: 50px 25px 0 25px;
+}
+
+.user_edit_form{
+    border: 2px solid black !important;
+    border-radius: 10px ;
+    padding-bottom: 20px;
+}
+
+.update-profile-btn{
+    margin-left: -3rem;
+}
+
+.forgot_password_form input{
+    border: 2px solid black ;
+}
+
+label[for="attached-files"] {
+    cursor:pointer;
+    font-size: 20px;
+ }
+
+ label[for="attached-files"]:hover {
+    text-decoration: underline;
+ }
+
+#sidebarMenu div, #sidebarMenu div a{
+    background-color: transparent;
+}
+
+body{
+    /* background: hsla(42, 47%, 61%, 1);
+
+background: linear-gradient(225deg, hsla(42, 47%, 61%, 1) 20%, hsla(23, 64%, 68%, 1) 40%, hsla(140, 20%, 51%, 1) 100%, hsla(351, 88%, 62%, 1) 100%); */
+
+    /* background: hsla(240, 51%, 67%, 1);
+
+background: linear-gradient(90deg, hsla(240, 51%, 67%, 1) 0%, hsla(176, 68%, 74%, 1) 100%); */
+
+/* background: -moz-linear-gradient(225deg, hsla(42, 47%, 61%, 1) 20%, hsla(23, 64%, 68%, 1) 40%, hsla(140, 20%, 51%, 1) 100%, hsla(351, 88%, 62%, 1) 100%);
+
+background: -webkit-linear-gradient(225deg, hsla(42, 47%, 61%, 1) 20%, hsla(23, 64%, 68%, 1) 40%, hsla(140, 20%, 51%, 1) 100%, hsla(351, 88%, 62%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CBAF6E", endColorstr="#E2A27A", GradientType=1 ); */
+}
